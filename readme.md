@@ -2,6 +2,10 @@
 
 - A streaming platform mockup built with HTML, CSS, and JavaScript, using the TVMaze API.
 
+ ## Live Demo
+
+[View my project on Vercel](https://movie-streaming-site-three.vercel.app/)
+
 ## Screenshots
 
 ![Homepage](./img/readme-photo-1.jpg)
