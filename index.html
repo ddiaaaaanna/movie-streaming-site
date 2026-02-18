@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steambox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./img/logo-copy.png" alt="Logo" class="logo-img" />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <div class="main-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">My list</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="input-row">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Title, people, genres"
+        />
+      </div>
+      <div class="user-nav">
+        <ul>
+          <li><i class="bi bi-person-circle"></i></li>
+          <li><i class="bi bi-question-circle"></i></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="">
+        <div class="hero-section">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <img src="./img/logo-copy.png" alt="Logo" class="logo-img" />
+            <h1>Start streaming your favourite shows now</h1>
+            <a href="#page-content" class="hero-cta">See all shows</a>
+          </div>
+        </div>
+      </section>
+      <section class="page-container" id="page-content">
+        <div class="filters-bar flex-between">
+          <div id="genres-select"></div>
+          <p id="status"></p>
+        </div>
+        <div id="results" class="grid"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-nav">
+        <div class="footer-links-right">
+          <p>
+            Follow us on : <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i> <i class="bi bi-reddit"></i>
+          </p>
+          <p>© TVmaze.com</p>
+        </div>
+        <div class="footer-links-left">
+          <ul>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="">Gift Cards</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
